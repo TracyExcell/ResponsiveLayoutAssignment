@@ -1,0 +1,136 @@
+
+
+* {
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+* {
+	
+	box-sizing: border-box;
+}
+
+
+/* main header and navigation styles*/ 
+
+.nav li{
+	list-style-type: none;
+	background-color: white;
+	padding: .5em;
+	margin-bottom: .5em;
+	margin-left: -2em;
+	width: 70vw;
+	
+	
+	
+	
+}
+.nav li a{
+	display: block;
+	text-decoration:none;
+	color: black;
+	text-align: center;
+	margin: 0 auto;	
+}
+
+.nav li a:hover {
+	color: #456e6e;
+}
+
+.profile-image {
+	border: black solid 3px;
+	
+}
+
+
+h1 {
+	padding: .25em;
+}
+
+
+/* body styling*/ 
+
+.paragraph {
+	text-align: center;
+	
+}
+
+
+
+/* colour styles*/ 
+
+
+
+#header_info {
+	background-color: #ccffdd;
+	padding-bottom: 1em;
+}
+
+
+p,
+h2,
+h3 {
+	color: #456e6e;
+}
+
+#first-paragraph {
+	color: black;
+}
+
+
+/* contact information styles*/ 
+
+#contact_info {
+	
+	text-align: center;
+	padding-bottom: .25em;
+	margin-top: 5em;
+	
+}
+
+
+
+.skills_info li {
+	
+	color: #456e6e;
+}
+
+/* footer styles*/ 
+
+footer {
+	margin-top: 1em;
+	display: block;
+	border-top: solid 2px #ccffdd;	
+	margin-bottom: 1em;
+	padding-top: 1em;
+}
+
+
+
+#top {
+	text-decoration:none;
+	color: #456e6e;
+	margin-top: -2.25em;
+	
+}
+
+#top:hover{
+	color:black;
+}
+
+footer a {
+	text-decoration: none;
+	color: #456e6e;	
+}
+
+footer a:hover{
+	color:black;
+}	
+
+
+
+#wrapper {
+	min-height: 100vh;
+}
+
+

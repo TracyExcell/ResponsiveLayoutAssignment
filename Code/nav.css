@@ -1,0 +1,235 @@
+
+/*main styles */ 
+
+.main-header,
+.nav {
+	display: flex;	
+	flex-direction: column;
+	align-self: center;
+}
+
+.main-header h1 {
+	align-self: center;
+}
+
+.nav li{
+	align-self: center;
+}
+
+.profile-image {
+	height: 70%;
+	width: 70%;
+	align-self: center;
+	
+}
+
+
+#first-paragraph {
+	margin: 1em;
+	padding-bottom: 1em;
+}
+	
+.picture {
+	height: 80%;
+	width: 80%;	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,
+h3 {
+	
+	text-align: center;
+}
+
+.paragraph {
+	text-align: center;
+	 margin-left: 1em;
+    margin-right: 1em;
+}
+
+.skills_info {
+	text-align: center;
+}
+
+.skills_info li {
+	list-style-type: none;
+	margin-left: -2em;
+}
+	
+.tablet-info {
+	
+	display: none;	
+}
+
+.skills_info {
+	
+	margin-top: 3em;
+}
+
+#footer,
+#footer-nav {
+	display: flex;
+}
+
+#footer h3 {
+	align-self: flex-start;
+	margin-right: auto;
+	margin-left: 1em;
+}
+
+#top {
+	margin-right: 1em;
+}
+
+
+/* tablet sized screen*/
+
+@media screen and (min-width: 769px) {
+	
+#columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	
+}
+
+.nav {
+	flex-direction: row;
+	justify-content: space-between;	
+	max-width: 450px;
+}
+
+.nav li {
+	background-color: transparent;
+	border: none;
+}
+
+#header_info {
+	position: relative;
+	padding: 1em;
+	
+}
+
+.profile-image {
+	align-self: flex-end;
+	height: 200px;
+	width: 300px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+#first-paragraph {
+	position: absolute;
+	left: 10%;
+	margin-top: -10em;
+	max-width: 400px;
+	max-height: 200px;
+	text-align: left;
+}
+
+.paragraph {
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	height: 30px;
+}
+
+.skills_info li {
+	
+	color: #456e6e;
+}
+
+.tablet-info {
+	
+	display: inline;
+	
+
+}
+
+
+#top {
+	display: none;
+}
+
+#student-name {
+	
+	margin-right: 1em;
+}
+
+.footer-nav h3 a{
+	margin-right: 1em;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-nav{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+	
+}
+
+
+
+/* large sized screen*/
+
+@media screen and (min-width: 1025px) {
+
+
+#columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	
+}
+
+.main-header h1 {
+	align-self: flex-start;
+	margin-left: 2em;
+	margin-right: auto;
+}
+
+.nav {
+	flex-direction: row;	
+	justify-content: space-between;
+	align-self: flex-end;
+	margin-top: -4em;
+	padding-bottom: 2em;
+}
+
+
+#first-paragraph {
+	font-size: 1.2em;
+	margin-left: -2em;
+	
+}
+
+.profile-image {
+	margin-top: 8em;
+	align-self: flex-end;
+	margin-top: -.25em;
+	margin-right: 2em;
+	height: 200px;
+	width: 300px;
+	
+}
+
+.paragraph {
+	font-size: .8em;
+	margin-bottom: 1em;
+	height: 30px;
+}
+
+
+
+
+
+}
+
