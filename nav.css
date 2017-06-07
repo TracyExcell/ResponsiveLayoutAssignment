@@ -124,7 +124,7 @@ h3 {
 	position: absolute;
 	left: 10%;
 	margin-top: -10em;
-	max-width: 400px;
+	max-width: 350px;
 	max-height: 200px;
 	text-align: left;
 }
@@ -207,7 +207,8 @@ footer .footer-nav{
 
 #first-paragraph {
 	font-size: 1.2em;
-	margin-left: -2em;
+    margin-left: -2em;
+    max-width: 550px;
 	
 }
 
@@ -226,10 +227,6 @@ footer .footer-nav{
 	margin-bottom: 1em;
 	height: 30px;
 }
-
-
-
-
 
 }
 
