@@ -27,6 +27,7 @@
 #first-paragraph {
 	margin: 1em;
 	padding-bottom: 1em;
+   
 }
 	
 .picture {
@@ -42,6 +43,8 @@ h3 {
 	
 	text-align: center;
 }
+
+
 
 .paragraph {
 	text-align: center;
@@ -207,8 +210,8 @@ footer .footer-nav{
 
 #first-paragraph {
 	font-size: 1.2em;
-    margin-left: -2em;
-    max-width: 550px;
+	margin-left: -2em;
+    max-width: 500px;
 	
 }
 
@@ -224,9 +227,9 @@ footer .footer-nav{
 
 .paragraph {
 	font-size: .8em;
-	margin-bottom: 1em;
+	margin-bottom: 1.3em;
 	height: 30px;
 }
 
-}
 
+}
